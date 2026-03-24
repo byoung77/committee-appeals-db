@@ -22,8 +22,8 @@ from array import *
 from datetime import datetime
 import csv
 
-#path to icon file
-icon_path = '/home/young/Desktop/Projects/ASC_Database/Wilkes_W.png'
+#path to icon file (UPDATE THIS)
+icon_path = '/path/to/Wilkes_W.png'
 
 #list of accept keys:
 acc_keys = ['<Return>', '<KP_Enter>']
