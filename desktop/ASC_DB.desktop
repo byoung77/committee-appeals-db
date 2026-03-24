@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ASC DB
+GenericName=Database Manager
+Comment=Launches the ASC DB Interact program
+Exec=/path/to/ASC_DB_Interact.py
+Terminal=false
+Type=Application
+Icon=/path/to/Wilkes_W.png
