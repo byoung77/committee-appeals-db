@@ -16,7 +16,27 @@ It combines:
 
 The system enables both detailed record retrieval and high-level statistical analysis, supporting real-world administrative decision-making.
 
-This project was originally developed for the Academic Standards Committee (ASC) at Wilkes University to replace fragmented record-keeping across multiple documents with a structured, searchable system for managing student appeal records.
+---
+
+## 🧠 Project Motivation
+
+Before this system was developed, committee records were stored as minutes across multiple independent Google Docs. As a result:
+
+* There was no centralized database of past decisions
+* It was effectively impossible to search across records
+* Committee members had no reliable way to review a student’s prior appearances
+
+This created a significant gap in the workflow: although detailed minutes were being recorded, they could not be efficiently used in future decision-making.
+
+This project was designed to address that gap by:
+
+* Centralizing records in a structured MySQL database
+* Providing fast retrieval by student (WIN) and date
+* Generating clear, professional reports for review
+
+The system transformed static, disconnected documents into a searchable and actionable record system.
+
+The database design developed for this project was later incorporated into a more comprehensive student management system used by the institution. While this standalone interface is no longer in active use, it successfully addressed an immediate operational need and informed the design of a larger, integrated solution.
 
 ---
 
@@ -34,6 +54,22 @@ This project was originally developed for the Academic Standards Committee (ASC)
 * Full database backup and restore via SQL dumps
 
 ---
+
+## 📘 Full Documentation
+
+A complete user manual is available:
+
+📄 `docs/ASC_Database_User_Manual.pdf`
+
+This includes:
+
+* Step-by-step usage instructions
+* GUI walkthroughs
+* CSV formatting details
+* Backup and restore procedures
+
+---
+
 
 ## ⚙️ Requirements
 
@@ -191,14 +227,3 @@ Includes:
 
 ---
 
-## 📁 Project Structure
-
-```
-committee-appeals-db/
-│
-├── README.md
-├── LICENSE
-├── ASC_DB_Interact.py
-├── ASC_Database_User_Manual.pdf
-├──
-```
